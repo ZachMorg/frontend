@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
-import JoblyApi from './api';
 
 const SignupForm = function({signup}){
     const navigate = useNavigate();

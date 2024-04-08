@@ -50,7 +50,7 @@ function App() {
   }
 
   const signup = async function(data){
-    let token = await JoblyApi.signup(data);
+    let token = await JoblyApi.register(data);
     setToken(token);
   }
 
